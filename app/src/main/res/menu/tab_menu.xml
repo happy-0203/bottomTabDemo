@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="首页"
+        android:id="@+id/tab_home"
+        android:icon="@drawable/tab_category_selector">
+    </item>
+
+    <item
+        android:title="品牌"
+        android:id="@+id/tab_brand"
+        android:icon="@drawable/tab_brand_selector">
+    </item>
+
+    <item
+        android:title="历史"
+        android:id="@+id/tab_history"
+        android:icon="@drawable/tab_history_selector">
+    </item>
+
+    <item
+        android:title="我的"
+        android:id="@+id/tab_account"
+        android:icon="@drawable/tab_account_selector">
+    </item>
+
+</menu>

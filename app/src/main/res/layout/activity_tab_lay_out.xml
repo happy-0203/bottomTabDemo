@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cc.bottomtabdemo.activity.TabLayOutActivity">
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    </FrameLayout>
+
+    <View
+        android:alpha="0.5"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"/>
+
+
+    <android.support.design.widget.TabLayout
+        app:tabTextColor="@android:color/darker_gray"
+        app:tabSelectedTextColor="@android:color/holo_green_light"
+        app:tabIndicatorHeight="0dp"
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+    </android.support.design.widget.TabLayout>
+
+
+
+
+
+</LinearLayout>
